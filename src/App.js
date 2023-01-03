@@ -1,11 +1,12 @@
+import React from "react";
 import Expenses from "./components/Expenses";
+import NewExpense from "./components/NewExpense";
 function App() {
 
   return (
     <div>
-      <h2>Let Get Started!</h2>
+        <NewExpense/>
         <Expenses/>
-
     </div>
   );
 }
